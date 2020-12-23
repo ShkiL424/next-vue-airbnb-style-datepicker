@@ -1,7 +1,7 @@
 import { App, DefineComponent, Plugin } from 'vue';
 
 // Import vue component
-import component from '@/next-vue-airbnb-style-datepicker.vue';
+import component from '@/components/next-vue-airbnb-style-datepicker.vue';
 
 // Define typescript interfaces for installable component
 type InstallableComponent = DefineComponent & { install: Exclude<Plugin['install'], undefined> };
