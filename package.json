@@ -2,6 +2,7 @@
   "name": "next-vue-airbnb-style-datepicker",
   "version": "1.0.0",
   "description": "",
+  "author": "ShkiL424",
   "main": "dist/next-vue-airbnb-style-datepicker.ssr.js",
   "browser": "dist/next-vue-airbnb-style-datepicker.esm.js",
   "module": "dist/next-vue-airbnb-style-datepicker.esm.js",
@@ -13,6 +14,10 @@
     "src/**/*.vue"
   ],
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShkiL424/next-vue-airbnb-style-datepicker"
+  },
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
